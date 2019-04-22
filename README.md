@@ -1,29 +1,12 @@
-# Creating interactive presentations on Binder with RISE
+# Data Science 101
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marskar/jupyter-rise/master?filepath=index.ipynb)
+There are 3 ways to view the slideshow:
 
-RISE allows you to quickly generate a live, interactive presentation from a
-Jupyter Notebook that is connected to the underlying Kernel of the notebook.
-Using a new feature for automatically launching
-the RISE plugin when a notebook is opened, RISE can be used to share interactive
-presentations that run in the cloud with Binder.
-This repository demonstrates how to accomplish this.
+1. https://marskar.github.io/ds101
+2. [Binder](https://mybinder.org/v2/gh/marskar/ds101/master?filepath=index.ipynb) or click the button below!
+3. [nbviewer](https://nbviewer.jupyter.org/format/slides/github/marskar/ds101/blob/master/index.ipynb#/)
 
-To make your RISE presentation automatically-launch with it is open,
-add an `autolaunch=true` configuration
-parameter to a notebook's `livereveal` section in the
-metadata. E.g.:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marskar/ds101/master?filepath=index.ipynb)
 
-```
-...
-"livereveal": {
-        "autolaunch": true
-        }
-...
-```
-
-When the notebook is launched, your
-presentation will automatically begin.
-
-See the [RISE Documentation](https://damianavila.github.io/RISE/)
-for more information.
+For more information on Binder, see https://mybinder.readthedocs.io/
+For more information on making from slides from Jupyter notebooks, check out the [RISE Documentation](https://damianavila.github.io/RISE/) and https://marskar.github.io/slides.
