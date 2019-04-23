@@ -1,3 +1,4 @@
+# http://uc-r.github.io/logistic_regression
 library(dplyr)  # data manipulation 
 library(ggplot2) # data visualization
 library(modelr)     # provides easy pipeline modeling functions
